@@ -10,6 +10,7 @@
 /**
  * Console command for deploying environments.
  */
+require_once('FlushCommand.php');
 class EnvironmentCommand extends FlushCommand
 {
     /**
